@@ -1,0 +1,22 @@
+artifact_path: file:D:/Financial_Risk_Platform/mlruns/1/models/m-3411d89fb89943aba3a6e6e4b7af8eac/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-3411d89fb89943aba3a6e6e4b7af8eac
+model_size_bytes: 5892
+model_uuid: m-3411d89fb89943aba3a6e6e4b7af8eac
+prompts: null
+run_id: 40ac29d888b74a3086f96340dd6e7e8a
+utc_time_created: '2026-01-11 03:29:07.337027'
