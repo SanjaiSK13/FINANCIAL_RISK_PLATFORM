@@ -70,6 +70,10 @@ cd FINANCIAL_RISK_PLATFORM
 
 pip install -r requirements.txt
 
+- Download Dataset from this link 
+
+https://drive.google.com/file/d/1C7tcEdnRIlxwIsFnsN6F0jkpU1FRlieS/view?usp=drive_link
+
 3. Train the Models
 
 Run the training pipeline to train the models and save the best ones to the models/ folder.
@@ -89,3 +93,4 @@ Smart Feature Engineering: Automatically calculates Debt-to-Income (DTI) ratio, 
 
 Safety Meter: A visual gauge chart that instantly shows if the requested loan amount is within the safe limit.
 ```
+
